@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="kodir.ino" name="kodir.ino" version="1.0.0" provider-name="Marcos Santos">
+	<requires>
+		<import addon="xbmc.python" version="2.14.0"/>
+	</requires>
+	<extension point="xbmc.python.script" library="addon.py">
+		<provides>executable</provides>
+	</extension>
+
+	<extension point="xbmc.service" library="service.py" />
+
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<summary lang="en">kodir.ino - controle o Kodi remotamente</summary>
+		<description lang="en">Utilize seu controle remoto para comandar o Kodi por intermédio de um Arduino.</description>
+		<disclaimer lang="en">Add-on gratuito, não venda-o ou compre-o. Desenvolvido por Marcos Santos</disclaimer>
+		<license>MIT</license>
+		<language></language>
+		<source>https://github.com/marcos-tulio/kodir.ino</source>
+		<website>https://github.com/marcos-tulio/kodir.ino</website>
+		<email></email>
+		<assets>
+			<icon>icon.png</icon>
+			<fanart>fanart.png</fanart>
+			<screenshot>resources/screenshot-01.jpg</screenshot>
+			<screenshot>resources/screenshot-02.jpg</screenshot>
+			<screenshot>resources/screenshot-03.jpg</screenshot>
+			<screenshot>resources/screenshot-04.jpg</screenshot>
+			<screenshot>resources/screenshot-05.jpg</screenshot>
+		</assets>
+		<news>v1.0.0 (29/05/2020) 
+        [new] [pt] Lançamento da primeira versão
+        [new] [en] Initial release
+		</news>
+	</extension>
+</addon>
