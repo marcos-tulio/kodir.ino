@@ -2,6 +2,7 @@
 <addon id="kodir.ino" name="kodir.ino" version="1.0.0" provider-name="Marcos Santos">
 	<requires>
 		<import addon="xbmc.python" version="2.14.0"/>
+		<import addon="script.module.pyserial" version="3.4"/>
 	</requires>
 	<extension point="xbmc.python.script" library="addon.py">
 		<provides>executable</provides>
