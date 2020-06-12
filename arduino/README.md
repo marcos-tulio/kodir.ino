@@ -3,7 +3,7 @@ Este código utiliza apenas um sensor IR com seu pino de leitura definido em `IR
 
 ### kodir_pc
 Este código permite que acione um pino através de um tecla pressionada no controle. Recomendado para sistemas onde faz-se 
-necessário utilizar um botão físico, como o `POWER SW` de um computador, para seu acionamento (ncessário alimentação de stand-by).
+necessário utilizar um botão físico, como o `POWER SW` de um computador, para seu acionamento (necessário alimentação de stand-by).
 - `IR_PIN` - Pino de leitura do sensor IR
 - `CTL_ON_1` - Código hex. da primeira tecla para acionar pino
 - `CTL_ON_2` - Código hex. da segunda tecla para acionar pino
