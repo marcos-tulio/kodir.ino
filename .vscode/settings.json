@@ -1,6 +1,0 @@
-{
-    "files.exclude": {
-        "**/*.pyo": true
-    },
-    "python.formatting.provider": "yapf"
-}
