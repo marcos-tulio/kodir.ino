@@ -1,0 +1,2 @@
+1.0.0 [pt] Lançamento da primeira versão
+1.0.0 [en] Initial Release
