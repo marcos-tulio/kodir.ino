@@ -9,12 +9,14 @@ Controle o kodi por meio de controle remoto IR e um Arduino.
 - Fácil mapeamente de teclas: apontou, clicou e usou
 - Personalização do uso: tempo de resposta de teclas e etc.
 
-#### Hardware necessário
+## Requisitos
+
+#### Hardware
 - Arduino
 - Sensor IR
 - Controle remoto IR
 
-#### Software necessário
+#### Software
 - Firmware para o arduino
 - Addon <a href="https://github.com/marcos-tulio/kodir.ino/raw/master/dist/kodir.ino-1.0.0.zip">kodir.ino</a> instalado em seu Kodi
 
