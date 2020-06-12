@@ -22,7 +22,7 @@ Controle o kodi por meio de controle remoto IR e um Arduino.
 - Addon <a href="https://github.com/marcos-tulio/kodir.ino/tree/master/dist">kodir.ino</a> instalado em seu Kodi
 
 ## Como utilizar
-- Grave no Arduino uma das versões do <a href="https://github.com/marcos-tulio/kodir.ino/tree/master/arduino">código disponível</a>
+- Grave no Arduino alguma versão dos <a href="https://github.com/marcos-tulio/kodir.ino/tree/master/arduino">códigos disponíveis</a>
 - Instale o addon <a href="https://github.com/marcos-tulio/kodir.ino/tree/master/dist">kodir.ino</a>  no Kodi
 - Configure o valor do `PID` e do `VID` do Arduino no Addon
 - Desative e ative novamente o Addon
