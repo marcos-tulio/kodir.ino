@@ -8,6 +8,7 @@ Controle o kodi por meio de controle remoto IR e um Arduino.
 - Vários controles remotos podem ser utilizados ao mesmo tempo
 - Fácil mapeamente de teclas: apontou, clicou e usou
 - Personalização do uso: tempo de resposta de teclas e etc.
+- Sistema inicializa juntamente com o Kodi
 
 ## Requisitos
 
@@ -17,11 +18,16 @@ Controle o kodi por meio de controle remoto IR e um Arduino.
 - Controle remoto IR
 
 #### Software
-- Firmware para o arduino
-- Addon <a href="https://github.com/marcos-tulio/kodir.ino/raw/master/dist/kodir.ino-1.0.0.zip">kodir.ino</a> instalado em seu Kodi
+- <a href="https://github.com/marcos-tulio/kodir.ino/tree/master/arduino">Firmware</a> para o arduino
+- Addon <a href="https://github.com/marcos-tulio/kodir.ino/tree/master/dist">kodir.ino</a> instalado em seu Kodi
 
+## Como utilizar
+- Grave no Arduino uma das versões do <a href="https://github.com/marcos-tulio/kodir.ino/tree/master/arduino">código disponível</a>
+- Instale o addon <a href="https://github.com/marcos-tulio/kodir.ino/tree/master/dist">kodir.ino</a>  no Kodi
+- Configure o valor do `PID` e do `VID` do Arduino no Addon
+- Desative e ative novamente o Addon
+- Mapeie as teclas do controle remoto de acordo com o desejado
 
-
-#### Versões testadas
+## Testado nas versões
 - Kodi from debian 17.6
 - Kodi 18.7
