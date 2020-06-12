@@ -1,4 +1,4 @@
-<p align="center"><img src="https://raw.githubusercontent.com/marcos-tulio/kodir.ino/master/fanart.png" width="800"></p>
+<p align="center"><img src="https://raw.githubusercontent.com/marcos-tulio/kodir.ino/master/addon/fanart.png" width="800"></p>
 
 ## kodir.ino
 Controle o kodi por meio de controle remoto IR e um Arduino.
