@@ -6,7 +6,7 @@ Controle o kodi por meio de controle remoto IR e um Arduino.
 #### Características
 - Comandos enviados diretamente ao Kodi (sem simulação de teclas)
 - Vários controles remotos podem ser utilizados ao mesmo tempo
-- Fácil mapeamente de teclas: apontou, clicou e usou
+- Fácil mapeamento de teclas: apontou, pressionou e usou
 - Personalização do uso: tempo de resposta de teclas e etc.
 - Sistema inicializa juntamente com o Kodi
 
