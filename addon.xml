@@ -29,7 +29,9 @@
 			<screenshot>resources/screenshot-04.jpg</screenshot>
 			<screenshot>resources/screenshot-05.jpg</screenshot>
 		</assets>
-		<news>v1.0.0 (29/05/2020) 
+		<news>v1.0.1 (17/06/2020) 
+		[new/fix] [pt] Adicionado novas funções e corrigido bug na listagem
+		[new/fix] [en] Add new functions and fix list bug
         [new] [pt] Lançamento da primeira versão
         [new] [en] Initial release
 		</news>

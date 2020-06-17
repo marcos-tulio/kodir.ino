@@ -67,6 +67,19 @@
     </category>
 
     <category label="32003">
+		<setting type="action" id="asc" label="32276" action="RunScript(kodir.ino, key_asc)" default=""/>
+		<setting type="action" id="hib" label="32277" action="RunScript(kodir.ino, key_hib)" default=""/>
+		<setting type="action" id="iit" label="32278" action="RunScript(kodir.ino, key_iit)" default=""/>
+		<setting type="action" id="iif" label="32279" action="RunScript(kodir.ino, key_iif)" default=""/>
+		<setting type="action" id="miz" label="32280" action="RunScript(kodir.ino, key_miz)" default=""/>
+		<setting type="action" id="pwd" label="32281" action="RunScript(kodir.ino, key_pwd)" default=""/>
+		<setting type="action" id="qui" label="32282" action="RunScript(kodir.ino, key_qui)" default=""/>
+		<setting type="action" id="roo" label="32283" action="RunScript(kodir.ino, key_roo)" default=""/>
+		<setting type="action" id="res" label="32284" action="RunScript(kodir.ino, key_res)" default=""/>
+		<setting type="action" id="rap" label="32285" action="RunScript(kodir.ino, key_rap)" default=""/>
+		<setting type="action" id="std" label="32286" action="RunScript(kodir.ino, key_std)" default=""/>
+		<setting type="action" id="sus" label="32287" action="RunScript(kodir.ino, key_sus)" default=""/>
+		
         <setting type="action" id="ent" label="32105" action="RunScript(kodir.ino, key_ent)" default=""/>
         <setting type="action" id="pcg" label="32231" action="RunScript(kodir.ino, key_pcg)" default=""/>
         <setting type="action" id="pgu" label="32106" action="RunScript(kodir.ino, key_pgu)" default=""/>
@@ -97,6 +110,9 @@
         <setting type="action" id="ssd" label="32135" action="RunScript(kodir.ino, key_ssd)" default=""/>
         <setting type="action" id="sua" label="32136" action="RunScript(kodir.ino, key_sua)" default=""/>
         <setting type="action" id="cif" label="32137" action="RunScript(kodir.ino, key_cif)" default=""/>
+	</category>
+	
+	<category label="32003">
         <setting type="action" id="npc" label="32138" action="RunScript(kodir.ino, key_npc)" default=""/>
         <setting type="action" id="ppc" label="32139" action="RunScript(kodir.ino, key_ppc)" default=""/>
         <setting type="action" id="zoo" label="32140" action="RunScript(kodir.ino, key_zoo)" default=""/>
@@ -159,6 +175,9 @@
         <setting type="action" id="sym" label="32200" action="RunScript(kodir.ino, key_sym)" default=""/>
         <setting type="action" id="cle" label="32201" action="RunScript(kodir.ino, key_cle)" default=""/>
         <setting type="action" id="cri" label="32202" action="RunScript(kodir.ino, key_cri)" default=""/>
+	</category>
+	
+	<category label="32003">
         <setting type="action" id="sti" label="32203" action="RunScript(kodir.ino, key_sti)" default=""/>
         <setting type="action" id="vpl" label="32204" action="RunScript(kodir.ino, key_vpl)" default=""/>
         <setting type="action" id="sps" label="32205" action="RunScript(kodir.ino, key_sps)" default=""/>
@@ -187,16 +206,14 @@
         <setting type="action" id="cbo" label="32228" action="RunScript(kodir.ino, key_cbo)" default=""/>
         <setting type="action" id="ceb" label="32229" action="RunScript(kodir.ino, key_ceb)" default=""/>
         <setting type="action" id="ncg" label="32230" action="RunScript(kodir.ino, key_ncg)" default=""/>
-
         <setting type="action" id="ppv" label="32234" action="RunScript(kodir.ino, key_ppv)" default=""/>
-        <setting type="action" id="ppt" label="32235" action="RunScript(kodir.ino, key_ppt)" default=""/>
+        <setting type="action" id="ppt" label="32235" action="RunScript(kodir.ino, key_ppt)" default=""/>		
         <setting type="action" id="ppr" label="32236" action="RunScript(kodir.ino, key_ppr)" default=""/>
         <setting type="action" id="rec" label="32237" action="RunScript(kodir.ino, key_rec)" default=""/>
         <setting type="action" id="smo" label="32238" action="RunScript(kodir.ino, key_smo)" default=""/>
         <setting type="action" id="sra" label="32239" action="RunScript(kodir.ino, key_sra)" default=""/>
         <setting type="action" id="ulv" label="32240" action="RunScript(kodir.ino, key_ulv)" default=""/>
         <setting type="action" id="shu" label="32241" action="RunScript(kodir.ino, key_shu)" default=""/>
-
         <setting type="action" id="sp1" label="32242" action="RunScript(kodir.ino, key_sp1)" default=""/>
         <setting type="action" id="sp2" label="32243" action="RunScript(kodir.ino, key_sp2)" default=""/>
         <setting type="action" id="sp3" label="32244" action="RunScript(kodir.ino, key_sp3)" default=""/>

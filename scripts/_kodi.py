@@ -192,7 +192,12 @@ class Kodi():
     #############################################################
     # Executa uma acao
     def execAction(self, action):
-        xbmc.executebuiltin('XBMC.Action(%s)'%(action))
+        if action.startswith("system_b_"):
+            action = action.replace("system_b_", "")
+            xbmc.executebuiltin(action)
+            
+        else:
+            xbmc.executebuiltin('XBMC.Action(%s)'%(action))
 
     def setProperty(self, property, value):
         xbmcgui.Window(self.config.CTL_WINDOW_PROPERTY).setProperty(property, value)

@@ -244,4 +244,17 @@
     <string id="32273">FilterSMS7</string>
     <string id="32274">FilterSMS8</string>
     <string id="32275">FilterSMS9</string>
+	
+	<string id="32276">ActivateScreensaver</string>
+	<string id="32277">Hibernate</string>
+	<string id="32278">InhibitIdleShutdown(true)</string>
+	<string id="32279">InhibitIdleShutdown(false)</string>	
+	<string id="32280">Minimize</string>	
+	<string id="32281">Powerdown</string>	
+	<string id="32282">Quit</string>	
+	<string id="32283">Reboot</string>	
+	<string id="32284">Reset</string>	
+	<string id="32285">RestartApp</string>	
+	<string id="32286">ShutDown</string>	
+	<string id="32287">Suspend</string>
 </strings>
