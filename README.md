@@ -29,5 +29,6 @@ Controle o kodi por meio de controle remoto IR e um Arduino.
 - Mapeie as teclas do controle remoto de acordo com o desejado
 
 ## Testado nas versões
-- Kodi from debian 17.6
-- Kodi 18.7
+- Kodi from debian 17.6 (kodir.ino 1.0.1)
+- Kodi 18.7 (kodir.ino 1.0.1)
+- Kodi 19.0 (kodir.ino 1.0.2)
