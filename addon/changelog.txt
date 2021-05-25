@@ -1,2 +1,6 @@
+1.0.2 [pt] Adicionado suporte ao kodi Matrix e corrigido bug na contagem ao solicitar tecla
+1.0.2 [en] Add kodi matrix support and fixed minor bug
+1.0.1 [pt] Adicionado novas funções e corrigido bug na listagem
+1.0.1 [en] Add new functions and fix list bug
 1.0.0 [pt] Lançamento da primeira versão
 1.0.0 [en] Initial Release

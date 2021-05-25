@@ -272,7 +272,7 @@ list_keys = {
     Key("smo", "StereoMode"),
     Key("sra", "SetRating"),
     Key("ulv", "UpdateLibrary(video)"),
-    Key("shu", "ShutDown()"),
+    Key("shu", "Powerdown"),
 
     Key("sp1", "Seek(25)"),
     Key("sp2", "Seek(50)"),
@@ -308,4 +308,18 @@ list_keys = {
     Key("fs7", "FilterSMS7"),
     Key("fs8", "FilterSMS8"),
     Key("fs9", "FilterSMS9"),
+    
+    # System bultin
+    Key("asc", "system_b_ActivateScreensaver"),
+    Key("hib", "system_b_Hibernate"),
+    Key("iit", "system_b_InhibitIdleShutdown(true)"),
+    Key("iif", "system_b_InhibitIdleShutdown(false)"),
+    Key("miz", "system_b_Minimize"),
+    Key("pwd", "system_b_Powerdown"),
+    Key("qui", "system_b_Quit"),
+    Key("roo", "system_b_Reboot"),
+    Key("res", "system_b_Reset"),
+    Key("rap", "system_b_RestartApp"),
+    Key("std", "system_b_ShutDown"),
+    Key("sus", "system_b_Suspend"),
 }

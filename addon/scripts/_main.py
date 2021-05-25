@@ -1,4 +1,4 @@
-import _kodi as Kodi
+from . import _kodi as Kodi
 kodi = Kodi.Kodi()
 
 import datetime, time, serial, serial.tools.list_ports

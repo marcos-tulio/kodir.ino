@@ -1,0 +1,982 @@
+# Kodi Media Center language file
+# Addon Name: kodir.ino
+# Addon id: kodir.ino
+# Addon Provider: Marcos Santos
+msgid ""
+msgstr ""
+"Project-Id-Version: Kodi Addons\n"
+"Report-Msgid-Bugs-To: https://forum.kodi.tv/\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Kodi Translation Team\n"
+"Language-Team: Team-Kodi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: en_GB\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgctxt "#32000"
+msgid "Informacoes"
+msgstr ""
+
+msgctxt "#32001"
+msgid "Geral"
+msgstr ""
+
+msgctxt "#32002"
+msgid "Teclas usuais"
+msgstr ""
+
+msgctxt "#32003"
+msgid "Teclas extras"
+msgstr ""
+
+msgctxt "#32004"
+msgid "Arduino:"
+msgstr ""
+
+msgctxt "#32005"
+msgid "Comunicacao:"
+msgstr ""
+
+msgctxt "#32006"
+msgid "Controle:"
+msgstr ""
+
+msgctxt "#32007"
+msgid "Avancado:"
+msgstr ""
+
+msgctxt "#32008"
+msgid "Autor: Marcos Santos"
+msgstr ""
+
+msgctxt "#32009"
+msgid "Versao: 1.0.0"
+msgstr ""
+
+msgctxt "#32010"
+msgid "kodir.ino"
+msgstr ""
+
+msgctxt "#32011"
+msgid "Repositório: github.com/marcos-tulio/kodir.ino"
+msgstr ""
+
+msgctxt "#32020"
+msgid "Estado atual:"
+msgstr ""
+
+msgctxt "#32021"
+msgid "ID:"
+msgstr ""
+
+msgctxt "#32022"
+msgid "Porta:"
+msgstr ""
+
+msgctxt "#32023"
+msgid "Descricao:"
+msgstr ""
+
+msgctxt "#32024"
+msgid "VID"
+msgstr ""
+
+msgctxt "#32025"
+msgid "PID"
+msgstr ""
+
+msgctxt "#32026"
+msgid "Baud rate"
+msgstr ""
+
+msgctxt "#32027"
+msgid "Byte final"
+msgstr ""
+
+msgctxt "#32028"
+msgid "Encode/decode"
+msgstr ""
+
+msgctxt "#32029"
+msgid "Tentativas de ping"
+msgstr ""
+
+msgctxt "#32030"
+msgid "Timeout de ping (x100ms)"
+msgstr ""
+
+msgctxt "#32031"
+msgid "Timeout de recepcao (x100ms)"
+msgstr ""
+
+msgctxt "#32032"
+msgid "Timeout de leitura (x100ms)"
+msgstr ""
+
+msgctxt "#32033"
+msgid "Flag de comando"
+msgstr ""
+
+msgctxt "#32034"
+msgid "Delay de tecla (x10ms)"
+msgstr ""
+
+msgctxt "#32035"
+msgid "Tempo da janela de teclas (x200ms)"
+msgstr ""
+
+msgctxt "#32036"
+msgid "Janela de variaveis"
+msgstr ""
+
+msgctxt "#32037"
+msgid "Janela de configuracoes"
+msgstr ""
+
+msgctxt "#32060"
+msgid "O kodir.ino ja esta em execucao!"
+msgstr ""
+
+msgctxt "#32061"
+msgid "Nao foi possivel receber um comando"
+msgstr ""
+
+msgctxt "#32062"
+msgid "Nao foi possivel executar o comando"
+msgstr ""
+
+msgctxt "#32063"
+msgid "Nao foi possivel conectar-se ao arduino"
+msgstr ""
+
+msgctxt "#32064"
+msgid "Verifique a configuracao de Baud Rate"
+msgstr ""
+
+msgctxt "#32065"
+msgid "Sistema iniciado com sucesso!"
+msgstr ""
+
+msgctxt "#32066"
+msgid "Testando a conexao..."
+msgstr ""
+
+msgctxt "#32067"
+msgid "Iniciando a comunicacao..."
+msgstr ""
+
+msgctxt "#32068"
+msgid "Arduino encontrado em"
+msgstr ""
+
+msgctxt "#32069"
+msgid "Aguardando o arduino..."
+msgstr ""
+
+msgctxt "#32070"
+msgid "Nao foi possivel testar a conexao"
+msgstr ""
+
+msgctxt "#32071"
+msgid "A comunicacao serial nao esta ativa"
+msgstr ""
+
+msgctxt "#32072"
+msgid "Comunicacao serial nao inicializada"
+msgstr ""
+
+msgctxt "#32073"
+msgid "Comunicacao iniciada com"
+msgstr ""
+
+msgctxt "#32074"
+msgid "a"
+msgstr ""
+
+msgctxt "#32075"
+msgid "Arduino desconectado"
+msgstr ""
+
+msgctxt "#32076"
+msgid "Erro ao definir a tecla"
+msgstr ""
+
+msgctxt "#32077"
+msgid "Esta tecla ja esta mapeada"
+msgstr ""
+
+msgctxt "#32078"
+msgid "Erro ao definir a tecla"
+msgstr ""
+
+msgctxt "#32079"
+msgid "Pressione uma tecla..."
+msgstr ""
+
+msgctxt "#32080"
+msgid "Entre com o valor:"
+msgstr ""
+
+msgctxt "#32081"
+msgid "Conectado"
+msgstr ""
+
+msgctxt "#32082"
+msgid "Desconectado"
+msgstr ""
+
+msgctxt "#32100"
+msgid "Esquerda"
+msgstr ""
+
+msgctxt "#32101"
+msgid "Direita"
+msgstr ""
+
+msgctxt "#32102"
+msgid "Cima"
+msgstr ""
+
+msgctxt "#32103"
+msgid "Baixo"
+msgstr ""
+
+msgctxt "#32104"
+msgid "Selecao"
+msgstr ""
+
+msgctxt "#32105"
+msgid "Enter"
+msgstr ""
+
+msgctxt "#32106"
+msgid "PageUp"
+msgstr ""
+
+msgctxt "#32107"
+msgid "PageDown"
+msgstr ""
+
+msgctxt "#32108"
+msgid "Highlight"
+msgstr ""
+
+msgctxt "#32109"
+msgid "ParentDir"
+msgstr ""
+
+msgctxt "#32110"
+msgid "PreviousMenu"
+msgstr ""
+
+msgctxt "#32111"
+msgid "Voltar"
+msgstr ""
+
+msgctxt "#32112"
+msgid "Info"
+msgstr ""
+
+msgctxt "#32113"
+msgid "Pause"
+msgstr ""
+
+msgctxt "#32114"
+msgid "Stop"
+msgstr ""
+
+msgctxt "#32115"
+msgid "SkipNext"
+msgstr ""
+
+msgctxt "#32116"
+msgid "SkipPrevious"
+msgstr ""
+
+msgctxt "#32117"
+msgid "FullScreen"
+msgstr ""
+
+msgctxt "#32118"
+msgid "togglefullscreen"
+msgstr ""
+
+msgctxt "#32119"
+msgid "AspectRatio"
+msgstr ""
+
+msgctxt "#32120"
+msgid "StepForward"
+msgstr ""
+
+msgctxt "#32121"
+msgid "StepBack"
+msgstr ""
+
+msgctxt "#32122"
+msgid "BigStepForward"
+msgstr ""
+
+msgctxt "#32123"
+msgid "BigStepBack"
+msgstr ""
+
+msgctxt "#32124"
+msgid "SmallStepBack"
+msgstr ""
+
+msgctxt "#32125"
+msgid "ChapterOrBigStepForward"
+msgstr ""
+
+msgctxt "#32126"
+msgid "ChapterOrBigStepBack"
+msgstr ""
+
+msgctxt "#32127"
+msgid "NextScene"
+msgstr ""
+
+msgctxt "#32128"
+msgid "PreviousScene"
+msgstr ""
+
+msgctxt "#32129"
+msgid "OSD"
+msgstr ""
+
+msgctxt "#32130"
+msgid "PlayDVD"
+msgstr ""
+
+msgctxt "#32131"
+msgid "ShowVideoMenu"
+msgstr ""
+
+msgctxt "#32132"
+msgid "ShowSubtitles"
+msgstr ""
+
+msgctxt "#32133"
+msgid "NextSubtitle"
+msgstr ""
+
+msgctxt "#32134"
+msgid "SubtitleShiftUp"
+msgstr ""
+
+msgctxt "#32135"
+msgid "SubtitleShiftDown"
+msgstr ""
+
+msgctxt "#32136"
+msgid "SubtitleAlign"
+msgstr ""
+
+msgctxt "#32137"
+msgid "CodecInfo"
+msgstr ""
+
+msgctxt "#32138"
+msgid "NextPicture"
+msgstr ""
+
+msgctxt "#32139"
+msgid "PreviousPicture"
+msgstr ""
+
+msgctxt "#32140"
+msgid "ZoomOut"
+msgstr ""
+
+msgctxt "#32141"
+msgid "ZoomIn"
+msgstr ""
+
+msgctxt "#32142"
+msgid "IncreasePAR"
+msgstr ""
+
+msgctxt "#32143"
+msgid "DecreasePAR"
+msgstr ""
+
+msgctxt "#32144"
+msgid "Queue"
+msgstr ""
+
+msgctxt "#32145"
+msgid "PlayNext"
+msgstr ""
+
+msgctxt "#32146"
+msgid "Filter"
+msgstr ""
+
+msgctxt "#32147"
+msgid "Playlist"
+msgstr ""
+
+msgctxt "#32148"
+msgid "ZoomNormal"
+msgstr ""
+
+msgctxt "#32149"
+msgid "ZoomLevel1"
+msgstr ""
+
+msgctxt "#32150"
+msgid "ZoomLevel2"
+msgstr ""
+
+msgctxt "#32151"
+msgid "ZoomLevel3"
+msgstr ""
+
+msgctxt "#32152"
+msgid "ZoomLevel4"
+msgstr ""
+
+msgctxt "#32153"
+msgid "ZoomLevel5"
+msgstr ""
+
+msgctxt "#32154"
+msgid "ZoomLevel6"
+msgstr ""
+
+msgctxt "#32155"
+msgid "ZoomLevel7"
+msgstr ""
+
+msgctxt "#32156"
+msgid "ZoomLevel8"
+msgstr ""
+
+msgctxt "#32157"
+msgid "ZoomLevel9"
+msgstr ""
+
+msgctxt "#32158"
+msgid "NextCalibration"
+msgstr ""
+
+msgctxt "#32159"
+msgid "ResetCalibration"
+msgstr ""
+
+msgctxt "#32160"
+msgid "AnalogMove"
+msgstr ""
+
+msgctxt "#32161"
+msgid "Rotate"
+msgstr ""
+
+msgctxt "#32162"
+msgid "rotateccw"
+msgstr ""
+
+msgctxt "#32163"
+msgid "Close"
+msgstr ""
+
+msgctxt "#32164"
+msgid "subtitledelay"
+msgstr ""
+
+msgctxt "#32165"
+msgid "SubtitleDelayMinus"
+msgstr ""
+
+msgctxt "#32166"
+msgid "SubtitleDelayPlus"
+msgstr ""
+
+msgctxt "#32167"
+msgid "audiodelay"
+msgstr ""
+
+msgctxt "#32168"
+msgid "AudioDelayMinus"
+msgstr ""
+
+msgctxt "#32169"
+msgid "AudioDelayPlus"
+msgstr ""
+
+msgctxt "#32170"
+msgid "AudioNextLanguage"
+msgstr ""
+
+msgctxt "#32171"
+msgid "NextResolution"
+msgstr ""
+
+msgctxt "#32172"
+msgid "FastForward"
+msgstr ""
+
+msgctxt "#32173"
+msgid "Rewind"
+msgstr ""
+
+msgctxt "#32174"
+msgid "Play"
+msgstr ""
+
+msgctxt "#32175"
+msgid "PlayPause"
+msgstr ""
+
+msgctxt "#32176"
+msgid "Delete"
+msgstr ""
+
+msgctxt "#32177"
+msgid "Copy"
+msgstr ""
+
+msgctxt "#32178"
+msgid "Move"
+msgstr ""
+
+msgctxt "#32179"
+msgid "Rename"
+msgstr ""
+
+msgctxt "#32180"
+msgid "HideSubmenu"
+msgstr ""
+
+msgctxt "#32181"
+msgid "Screenshot"
+msgstr ""
+
+msgctxt "#32182"
+msgid "Volume +"
+msgstr ""
+
+msgctxt "#32183"
+msgid "Volume -"
+msgstr ""
+
+msgctxt "#32184"
+msgid "Mute"
+msgstr ""
+
+msgctxt "#32185"
+msgid "volampup"
+msgstr ""
+
+msgctxt "#32186"
+msgid "volampdown"
+msgstr ""
+
+msgctxt "#32187"
+msgid "audiotoggledigital"
+msgstr ""
+
+msgctxt "#32188"
+msgid "BackSpace"
+msgstr ""
+
+msgctxt "#32189"
+msgid "ScrollUp"
+msgstr ""
+
+msgctxt "#32190"
+msgid "ScrollDown"
+msgstr ""
+
+msgctxt "#32191"
+msgid "AnalogFastForward"
+msgstr ""
+
+msgctxt "#32192"
+msgid "AnalogRewind"
+msgstr ""
+
+msgctxt "#32193"
+msgid "AnalogSeekForward"
+msgstr ""
+
+msgctxt "#32194"
+msgid "AnalogSeekBack"
+msgstr ""
+
+msgctxt "#32195"
+msgid "MoveItemUp"
+msgstr ""
+
+msgctxt "#32196"
+msgid "MoveItemDown"
+msgstr ""
+
+msgctxt "#32197"
+msgid "Menu"
+msgstr ""
+
+msgctxt "#32198"
+msgid "ContextMenu"
+msgstr ""
+
+msgctxt "#32199"
+msgid "Shift"
+msgstr ""
+
+msgctxt "#32200"
+msgid "Symbols"
+msgstr ""
+
+msgctxt "#32201"
+msgid "CursorLeft"
+msgstr ""
+
+msgctxt "#32202"
+msgid "CursorRight"
+msgstr ""
+
+msgctxt "#32203"
+msgid "ShowTime"
+msgstr ""
+
+msgctxt "#32204"
+msgid "visualisationpresetlist"
+msgstr ""
+
+msgctxt "#32205"
+msgid "ShowPreset"
+msgstr ""
+
+msgctxt "#32206"
+msgid "NextPreset"
+msgstr ""
+
+msgctxt "#32207"
+msgid "PreviousPreset"
+msgstr ""
+
+msgctxt "#32208"
+msgid "LockPreset"
+msgstr ""
+
+msgctxt "#32209"
+msgid "RandomPreset"
+msgstr ""
+
+msgctxt "#32210"
+msgid "IncreaseRating"
+msgstr ""
+
+msgctxt "#32211"
+msgid "DecreaseRating"
+msgstr ""
+
+msgctxt "#32212"
+msgid "ToggleWatched"
+msgstr ""
+
+msgctxt "#32213"
+msgid "NextLetter"
+msgstr ""
+
+msgctxt "#32214"
+msgid "PrevLetter"
+msgstr ""
+
+msgctxt "#32215"
+msgid "verticalshiftup"
+msgstr ""
+
+msgctxt "#32216"
+msgid "verticalshiftdown"
+msgstr ""
+
+msgctxt "#32217"
+msgid "scanitem"
+msgstr ""
+
+msgctxt "#32218"
+msgid "reloadkeymaps"
+msgstr ""
+
+msgctxt "#32219"
+msgid "increasevisrating"
+msgstr ""
+
+msgctxt "#32220"
+msgid "decreasevisrating"
+msgstr ""
+
+msgctxt "#32221"
+msgid "firstpage"
+msgstr ""
+
+msgctxt "#32222"
+msgid "lastpage"
+msgstr ""
+
+msgctxt "#32223"
+msgid "guiprofile"
+msgstr ""
+
+msgctxt "#32224"
+msgid "red"
+msgstr ""
+
+msgctxt "#32225"
+msgid "green"
+msgstr ""
+
+msgctxt "#32226"
+msgid "yellow"
+msgstr ""
+
+msgctxt "#32227"
+msgid "blue"
+msgstr ""
+
+msgctxt "#32228"
+msgid "CreateBookmark"
+msgstr ""
+
+msgctxt "#32229"
+msgid "CreatEpisodeBookmark"
+msgstr ""
+
+msgctxt "#32230"
+msgid "NextChannelGroup"
+msgstr ""
+
+msgctxt "#32231"
+msgid "PreviousChannelGroup"
+msgstr ""
+
+msgctxt "#32232"
+msgid "Canal +"
+msgstr ""
+
+msgctxt "#32233"
+msgid "Canal -"
+msgstr ""
+
+msgctxt "#32234"
+msgid "PlayPvr"
+msgstr ""
+
+msgctxt "#32235"
+msgid "PlayPvrTV"
+msgstr ""
+
+msgctxt "#32236"
+msgid "PlayPvrRadio"
+msgstr ""
+
+msgctxt "#32237"
+msgid "Record"
+msgstr ""
+
+msgctxt "#32238"
+msgid "StereoMode"
+msgstr ""
+
+msgctxt "#32239"
+msgid "SetRating"
+msgstr ""
+
+msgctxt "#32240"
+msgid "UpdateLibrary(video)"
+msgstr ""
+
+msgctxt "#32241"
+msgid "ShutDown()"
+msgstr ""
+
+msgctxt "#32242"
+msgid "Seek(25)"
+msgstr ""
+
+msgctxt "#32243"
+msgid "Seek(50)"
+msgstr ""
+
+msgctxt "#32244"
+msgid "Seek(75)"
+msgstr ""
+
+msgctxt "#32245"
+msgid "Seek(100)"
+msgstr ""
+
+msgctxt "#32246"
+msgid "Seek(-25)"
+msgstr ""
+
+msgctxt "#32247"
+msgid "Seek(-50)"
+msgstr ""
+
+msgctxt "#32248"
+msgid "Seek(-75)"
+msgstr ""
+
+msgctxt "#32249"
+msgid "Seek(-100)"
+msgstr ""
+
+msgctxt "#32250"
+msgid "Número 0"
+msgstr ""
+
+msgctxt "#32251"
+msgid "Número 1"
+msgstr ""
+
+msgctxt "#32252"
+msgid "Número 2"
+msgstr ""
+
+msgctxt "#32253"
+msgid "Número 3"
+msgstr ""
+
+msgctxt "#32254"
+msgid "Número 4"
+msgstr ""
+
+msgctxt "#32255"
+msgid "Número 5"
+msgstr ""
+
+msgctxt "#32256"
+msgid "Número 6"
+msgstr ""
+
+msgctxt "#32257"
+msgid "Número 7"
+msgstr ""
+
+msgctxt "#32258"
+msgid "Número 8"
+msgstr ""
+
+msgctxt "#32259"
+msgid "Número 9"
+msgstr ""
+
+msgctxt "#32260"
+msgid "JumpSMS2"
+msgstr ""
+
+msgctxt "#32261"
+msgid "JumpSMS3"
+msgstr ""
+
+msgctxt "#32262"
+msgid "JumpSMS4"
+msgstr ""
+
+msgctxt "#32263"
+msgid "JumpSMS5"
+msgstr ""
+
+msgctxt "#32264"
+msgid "JumpSMS6"
+msgstr ""
+
+msgctxt "#32265"
+msgid "JumpSMS7"
+msgstr ""
+
+msgctxt "#32266"
+msgid "JumpSMS8"
+msgstr ""
+
+msgctxt "#32267"
+msgid "JumpSMS9"
+msgstr ""
+
+msgctxt "#32268"
+msgid "FilterSMS2"
+msgstr ""
+
+msgctxt "#32269"
+msgid "FilterSMS3"
+msgstr ""
+
+msgctxt "#32270"
+msgid "FilterSMS4"
+msgstr ""
+
+msgctxt "#32271"
+msgid "FilterSMS5"
+msgstr ""
+
+msgctxt "#32272"
+msgid "FilterSMS6"
+msgstr ""
+
+msgctxt "#32273"
+msgid "FilterSMS7"
+msgstr ""
+
+msgctxt "#32274"
+msgid "FilterSMS8"
+msgstr ""
+
+msgctxt "#32275"
+msgid "FilterSMS9"
+msgstr ""
+
+msgctxt "#32276"
+msgid "ActivateScreensaver"
+msgstr ""
+
+msgctxt "#32277"
+msgid "Hibernate"
+msgstr ""
+
+msgctxt "#32278"
+msgid "InhibitIdleShutdown(true)"
+msgstr ""
+
+msgctxt "#32279"
+msgid "InhibitIdleShutdown(false)"
+msgstr ""
+
+msgctxt "#32280"
+msgid "Minimize"
+msgstr ""
+
+msgctxt "#32281"
+msgid "Powerdown"
+msgstr ""
+
+msgctxt "#32282"
+msgid "Quit"
+msgstr ""
+
+msgctxt "#32283"
+msgid "Reboot"
+msgstr ""
+
+msgctxt "#32284"
+msgid "Reset"
+msgstr ""
+
+msgctxt "#32285"
+msgid "RestartApp"
+msgstr ""
+
+msgctxt "#32286"
+msgid "ShutDown"
+msgstr ""
+
+msgctxt "#32287"
+msgid "Suspend"
+msgstr ""
+

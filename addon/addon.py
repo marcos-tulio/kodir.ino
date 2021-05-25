@@ -5,7 +5,7 @@ addon = xbmcaddon.Addon()
 
 if len(sys.argv) > 1:
     import os
-    scripts = os.path.join(addon.getAddonInfo('path').decode('utf-8'), 'scripts')
+    scripts = os.path.join(addon.getAddonInfo('path'), 'scripts')
     from scripts import _main as Main
 
     item_id = sys.argv[1]

@@ -9,14 +9,14 @@ class Kodi():
         self.addon = xbmcaddon.Addon()
 
         # Carregar user path
-        self.user_data = xbmc.translatePath(self.addon.getAddonInfo('profile')).decode('utf-8')
+        self.user_data = xbmc.translatePath(self.addon.getAddonInfo('profile'))
         self.settings_json = os.path.join(self.user_data, 'settings.json')
-        self.resources = os.path.join(self.addon.getAddonInfo("path").decode('utf-8'), "resources")
+        self.resources = os.path.join(self.addon.getAddonInfo("path"), "resources")
 
-        import _mapper
+        from . import _mapper
         self.mapper = _mapper
 
-        import _config
+        from . import _config
         self.config = _config
 
     #############################################################
@@ -129,7 +129,7 @@ class Kodi():
             pDialog.update(dProgress, self.getLocalizedString(32079))
 
             key_time = key_time - 1
-            dProgress = dProgress + (100 / self.config.CTL_KEY_CONFIG_TIME)
+            dProgress = int(dProgress + (100 / self.config.CTL_KEY_CONFIG_TIME))
 
             # Finalizar o processo
             if pDialog.iscanceled() or not self.getProperty("request_select_ppt"):
@@ -192,7 +192,12 @@ class Kodi():
     #############################################################
     # Executa uma acao
     def execAction(self, action):
-        xbmc.executebuiltin('XBMC.Action(%s)'%(action))
+        if action.startswith("system_b_"):
+            action = action.replace("system_b_", "")
+            xbmc.executebuiltin(action)
+            
+        else:
+            xbmc.executebuiltin('XBMC.Action(%s)'%(action))
 
     def setProperty(self, property, value):
         xbmcgui.Window(self.config.CTL_WINDOW_PROPERTY).setProperty(property, value)
@@ -238,7 +243,7 @@ class Kodi():
             xbmc.executebuiltin('Notification({}, {}, {})'.format(title, text, time))
 
     def getLocalizedString(self, code):
-        return self.addon.getLocalizedString(code).encode("UTF-8")
+        return self.addon.getLocalizedString(code)
 
 from threading import Thread
 class InputDialog(Thread):
